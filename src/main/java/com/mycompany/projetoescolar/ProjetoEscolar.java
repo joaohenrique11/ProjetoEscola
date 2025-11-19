@@ -11,6 +11,14 @@ package com.mycompany.projetoescolar;
 public class ProjetoEscolar {
 
     public static void main(String[] args) {
+        Turma horario = new Turma();
+        Turma local = new Turma();
+        
+        horario.horario = "\n7:30 as 8:10: Portugues\n 8:10 as 8:50: Geografia\n 8:50 as 9:30: Historia\n 9:30 as 9:50: Intervalo";
+        local.local = "Bloa A, Andar 2";
+        
+        System.out.println("Local da sala: " + local.local);
+        System.out.println("Horario da Turma: " + horario.horario);
         
     }
 }

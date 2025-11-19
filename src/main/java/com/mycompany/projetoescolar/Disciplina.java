@@ -4,10 +4,25 @@
  */
 package com.mycompany.projetoescolar;
 
+import java.util.List;
+
 /**
  *
  * @author JOÃOHENRIQUEDASILVAC
  */
 class Disciplina {
+    public String nome;
+    public String horario;
+    public List<Professor> professores;
+    public List<Turma> turmas;
+    public List<Aluno> alunos;
     
+    public Disciplina(){
+    
+    }
+    
+    public Disciplina(String nome, String horario, String professores, String turmas, String alunos){
+        this.nome = nome;
+        this.horario = horario;
+    }
 }

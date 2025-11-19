@@ -14,18 +14,25 @@ public class Turma {
 
     private String identificador;
     private List<Aluno> alunos;
-    private String horario;
-    private String local;
+    String horario;
+    String local;
     private List<Professor> professores;
 
-    public Turma(String identificador, String horario, String local) {
+    
+    public Turma(){
+    
+    }
+    
+    public Turma(String identificador, String horario, String local, String alunos, String professores) {
         this.identificador = identificador;
         this.horario = horario;
         this.local = local;
     }
 
  
-    public void definirLimiteDeAlunos() {}
+    public void definirLimiteDeAlunos() {
+        System.out.println("O limite da turma eh de 25 alunos");
+    }
 
     public void inserirProfessoresNaTurma(Professor professor) {
         professores.add(professor);

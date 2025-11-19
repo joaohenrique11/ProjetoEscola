@@ -13,7 +13,7 @@ class Aluno {
     String matricula;
     List<Disciplina> disciplinas = new ArrayList();
     
-    public Aluno(String nome){
+    public Aluno(String nome, String cpf, int idade, String genero, String responsavel){
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
@@ -23,7 +23,7 @@ class Aluno {
     }
     
     public void ver_suas_notas(Aluno aluno1){
-        System.out.println("dawdadawdawdawdaw");
+        System.out.println("");
     }
     
     public void consultar_frequencias(){
