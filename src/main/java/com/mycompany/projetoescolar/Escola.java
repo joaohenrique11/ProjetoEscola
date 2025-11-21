@@ -21,16 +21,16 @@ public class Escola {
     }
     
     private void matricular_aluno(){
-        System.out.println("João foi matriculado com sucesso");
+        System.out.println(nome + "foi matriculado com sucesso");
     }
     
     private void expulsar_aluno(){
-        System.out.println("João foi expulso!");
+        System.out.println(nome + "foi expulso!");
     }
     
     public void orientar_aluno(){
-        System.out.println("Aluno 1 esta suspenso");
-        System.out.println("Aluno 2 foi expulso");
+        System.out.println(nome + "esta suspenso");
+        System.out.println(nome + "foi expulso");
     }
     
     private void contratar_professor(){
@@ -38,22 +38,22 @@ public class Escola {
     }
     
     private void demitir_professor(){
-        System.out.println("Professor Roberto foi contratado!!");
+        System.out.println("Professor Roberto foi demitido!!");
     }
     
     private void suspender_professor(){
-    
+        System.out.println("Professor Roberto foi suspenso");
     }
     
     private void contratar_colaborador(){
-    
+        System.out.println(colaboradores + "foi contratado!");
     }
     
     private void demitir_colaborador(){
-    
+        System.out.println(colaboradores + "foi dmeitido!");
     }
     
     private void suspender_colaborador(){
-    
+        System.out.println(colaboradores + "foi suspenso");
     }
 }

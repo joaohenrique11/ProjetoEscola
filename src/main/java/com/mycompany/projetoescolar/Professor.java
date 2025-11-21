@@ -30,7 +30,7 @@ class Professor {
     }
     
     void verificar_disciplinas(){
-    
+        
     }
     
     void verificar_cronograma_das_disciplinas(){

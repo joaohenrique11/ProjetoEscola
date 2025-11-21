@@ -23,7 +23,10 @@ class Aluno {
     }
     
     public void ver_suas_notas(Aluno aluno1){
-        System.out.println("");
+        System.out.println("Notas do aluno" + this.nome + ":");
+            for (double nota : notas){
+                System.out.println(notas + "");
+            }
     }
     
     public void consultar_frequencias(){

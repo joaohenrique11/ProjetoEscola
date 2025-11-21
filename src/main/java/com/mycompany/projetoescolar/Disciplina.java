@@ -25,4 +25,13 @@ class Disciplina {
         this.nome = nome;
         this.horario = horario;
     }
+    
+    public void exibirGradeDeHorario(){
+        System.out.println("A disciplina eh: " + nome);
+        System.out.println("Horario: " + horario);
+    }
+    
+    public void exibirProfessores(){
+    
+    }
 }
