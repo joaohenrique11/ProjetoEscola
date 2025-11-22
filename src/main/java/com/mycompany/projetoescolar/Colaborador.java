@@ -22,6 +22,9 @@ public class Colaborador {
         // Define os horários de acordo com o cargo
     }
     void baterPonto(String horario_inicio, String horario_almoco, String fim_de_almoco, String fim_horario){
-        // Logica
+        System.out.println("Entrada: " + horario_inicio);
+        System.out.println("Horario almoço: " + horario_almoco);
+        System.out.println("Fim do almoço: " + fim_de_almoco);
+        System.out.println("Fim horario: " + fim_horario);
     }
 }

@@ -14,6 +14,9 @@ public class ProjetoEscolar {
         Turma turma1 = new Turma();
         Turma turma2 = new Turma();
         Disciplina disciplina1 = new Disciplina(); 
+        Aluno aluno1 = new Aluno();
+        
+        aluno1.consultar_frequencias();
         
         disciplina1.nome = "Matematica";
         disciplina1.horario = "9:50 as 10:30";

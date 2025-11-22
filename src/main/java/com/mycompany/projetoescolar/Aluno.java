@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Aluno {
-    String nome;
+    String nome = "Carlos";
     String cpf;
     int idade;
     String genero;
@@ -12,6 +12,10 @@ class Aluno {
     double[] notas = new double[4];
     String matricula;
     List<Disciplina> disciplinas = new ArrayList();
+    
+    public Aluno(){
+    
+    }
     
     public Aluno(String nome, String cpf, int idade, String genero, String responsavel){
         this.nome = nome;
@@ -30,7 +34,12 @@ class Aluno {
     }
     
     public void consultar_frequencias(){
-    
+        System.out.println("Frequencias de " + nome + ":");
+        System.out.println("Dia 26: Presente");
+        System.out.println("Dia 29: Presente");
+        System.out.println("Dia 31: Falta");
+        System.out.println("Dia 02: Presente");
+        System.out.println("Dia 05: Falta");
     }
     
     public void consultar_historico(){
@@ -38,14 +47,14 @@ class Aluno {
     }
     
     public void consultar_comprovante_matricula(){
-    
+        System.out.println("Comprovante de matricula: " + matricula);
     }
     
     public void consultar_grade_de_horario(){
-    
+        System.out.println("Hora: 7:30-8:20\n" + "Segunda: Portugues");
     }
 
     public void matricular_aluno() {
-        
+        System.out.println("Disciplinas: " + nome);
     }
 }

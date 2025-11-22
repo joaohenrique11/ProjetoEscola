@@ -32,6 +32,6 @@ class Disciplina {
     }
     
     public void exibirProfessores(){
-    
+        System.out.println("Professor (a): Roberto\nProfessor: Alberto\nProfessor (a): Yuri\nProfessor (a): Carla");
     }
 }

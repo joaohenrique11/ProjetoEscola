@@ -34,22 +34,26 @@ class Professor {
     }
     
     void verificar_cronograma_das_disciplinas(){
-    
+        System.out.println("3° Serie\n1° Bimestre: Operações básicas com números naturais, frações e decimais. Múltiplos e divisores (MMC e MDC). Expressões numéricas.");
     }
     
     void verificar_presenca(String colocar_presenca, String tirar_presenca){
-    
+        System.out.println("Carlos: Presente");
+        System.out.println("Luan: Presente");
+        System.out.println("Tiago: Falta");
+        System.out.println("Joao: Presente");
+        System.out.println("Felipe: Falta");
     }
     
     void inserir_notas(){
-    
+        
     }
     
     void colocar_presenca(){
-    
+        
     }
     
     void definir_situacao_academica_do_aluno(){
-    
+        
     }
 }
