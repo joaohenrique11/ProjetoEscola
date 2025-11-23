@@ -11,8 +11,8 @@ import java.util.List;
  * @author JOÃOHENRIQUEDASILVAC
  */
 class Disciplina {
-    public String nome;
-    public String horario;
+    public String nome = "Matematica";
+    public String horario = "9:50 as 10:30";
     public List<Professor> professores;
     public List<Turma> turmas;
     public List<Aluno> alunos;

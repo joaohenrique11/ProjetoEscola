@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Aluno {
-    String nome = "Carlos";
-    String cpf;
-    int idade;
-    String genero;
-    String resposavel;
+    String nome = "Joao";
+    String cpf = "123-543-234-65";
+    int idade = 19;
+    String genero = "Homem";
+    String responsavel = "Joao Roberto";
     double[] notas = new double[4];
-    String matricula;
+    String matricula = "436346-5";
     List<Disciplina> disciplinas = new ArrayList();
     
     public Aluno(){
-    
+
     }
     
     public Aluno(String nome, String cpf, int idade, String genero, String responsavel){
@@ -22,7 +22,7 @@ class Aluno {
         this.cpf = cpf;
         this.idade = idade;
         this.genero = genero;
-        this.resposavel = responsavel;
+        this.responsavel = responsavel;
         this.matricula = matricula;
     }
     

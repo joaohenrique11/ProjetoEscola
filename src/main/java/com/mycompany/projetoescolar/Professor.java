@@ -6,12 +6,14 @@ package com.mycompany.projetoescolar;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  *
  * @author JOÃOHENRIQUEDASILVAC
  */
 class Professor {
+    Scanner notas = new Scanner(System.in);
     String nome;
     String cpf;
     int idade;
@@ -20,6 +22,9 @@ class Professor {
     List<Disciplina> disciplinas = new ArrayList();
     List<Turma> turmas = new ArrayList();
     List<Aluno> alunos = new ArrayList();
+    private double[] nota = new double[4];
+    
+    private Professor(){}
     
     private Professor(String nome, String cpf, int idade, String genero, double salario){
         this.nome = nome;
@@ -27,10 +32,11 @@ class Professor {
         this.idade = idade;
         this.genero = genero;
         this.salario = salario;
+        this.disciplinas = disciplinas;
     }
     
     void verificar_disciplinas(){
-        
+        System.out.println("Ronildo: Portugues, Matematica, Ingles");
     }
     
     void verificar_cronograma_das_disciplinas(){
@@ -46,14 +52,14 @@ class Professor {
     }
     
     void inserir_notas(){
-        
+        System.out.println("Professor Ronildo inseriu a nota: " + nota + " para Joao Henrique");
     }
     
     void colocar_presenca(){
-        
+        System.out.println("Joao: Presenca confirmada\nLuan: Presenca confirmada");
     }
     
     void definir_situacao_academica_do_aluno(){
-        
+        System.out.println("Carlos: Aprovado\nLuan: Aprovado\nTiago: Reprovado\nJoao: Aprovado\nFelipe: Aprovado");
     }
 }
